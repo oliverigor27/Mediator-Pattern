@@ -1,10 +1,12 @@
 using MediatorPatern.Api.Extensions;
+using MediatorPattern.Application.Extensions;
 
 WebApplication BuildApp(string[] args)
 {
     var builder = WebApplication.CreateBuilder(args);
     builder.Services.AddOpenApi();
     builder.Services.AddDocumentation();
+    builder.Services.AddApplicationServices();
     return builder.Build();
 }
 

@@ -8,7 +8,7 @@ public class Mediator(
 {
     private readonly IServiceProvider _serviceProvider = serviceProvider;
 
-    public async Task<TResponse> HandleAsync<TResponse>(IRequest<TResponse> request)
+    public async Task<TResponse> Send<TResponse>(IRequest<TResponse> request)
     {
         var handlerType = typeof(IRequestHandler<,>).MakeGenericType(request.GetType(), typeof(TResponse));
         var handler = _serviceProvider.GetService(handlerType) 

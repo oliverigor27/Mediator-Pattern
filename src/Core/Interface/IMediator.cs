@@ -2,5 +2,5 @@ namespace MediatorPattern.Application.Interface;
 
 public interface IMediator
 {
-    Task<TResponse> HandleAsync<TResponse>(IRequest<TResponse> request);
+    Task<TResponse> Send<TResponse>(IRequest<TResponse> request);
 }

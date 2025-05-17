@@ -8,6 +8,7 @@ public static class EndpointRouteExtension
     {
         var builder = app.MapGroup("");
         MapMainEndpoint(builder);
+        MapProductsEndpoint(builder);
         return app;
     }
 
@@ -23,5 +24,12 @@ public static class EndpointRouteExtension
         app.MapGroup("/info")
             .WithTags("InfoEndpoint")
             .MapEndpoint<MainEndpoint>();
+    }
+
+    private static void MapProductsEndpoint(IEndpointRouteBuilder app)
+    {
+        app.MapGroup("/products")
+            .WithTags("Products")
+            .MapEndpoint<CreateProductEndpoint>();
     }
 }
