@@ -1,4 +1,4 @@
-using MediatorPattern.Application.Interface;
+using MediatorPattern.Core.Interface;
 
 namespace MediatorPattern.Application.Commands;
 

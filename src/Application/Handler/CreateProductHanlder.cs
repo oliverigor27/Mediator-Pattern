@@ -1,5 +1,5 @@
 using MediatorPattern.Application.Commands;
-using MediatorPattern.Application.Interface;
+using MediatorPattern.Core.Interface;
 
 namespace MediatorPattern.Application.Handler;
 

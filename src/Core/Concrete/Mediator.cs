@@ -1,6 +1,6 @@
-using MediatorPattern.Application.Interface;
+using MediatorPattern.Core.Interface;
 
-namespace MediatorPattern.Application.Concrete;
+namespace MediatorPattern.Core.Concrete;
 
 public class Mediator(
     IServiceProvider serviceProvider

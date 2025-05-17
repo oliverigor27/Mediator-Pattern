@@ -1,3 +1,3 @@
-namespace MediatorPattern.Application.Interface;
+namespace MediatorPattern.Core.Interface;
 
 public interface IRequest<TResponse> {}

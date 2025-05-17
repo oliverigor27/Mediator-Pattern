@@ -1,4 +1,4 @@
-namespace MediatorPattern.Application.Interface;
+namespace MediatorPattern.Core.Interface;
 
 public interface IRequestHandler<TRequest, TResponse> 
     where TRequest : IRequest<TResponse>

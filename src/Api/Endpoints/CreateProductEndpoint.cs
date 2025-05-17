@@ -1,6 +1,6 @@
 using MediatorPatern.Api.RequestModels;
 using MediatorPattern.Application.Commands;
-using MediatorPattern.Application.Interface;
+using MediatorPattern.Core.Interface;
 using Microsoft.AspNetCore.Mvc;
 
 namespace MediatorPatern.Api.Endpoints;
@@ -26,6 +26,6 @@ public class CreateProductEndpoint : IEndpoint
         };
 
         await mediator.Send(command);
-        return TypedResults.Created("Produto Criado!");
+        return TypedResults.Created();
     }
 }

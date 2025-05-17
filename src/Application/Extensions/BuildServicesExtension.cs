@@ -1,7 +1,7 @@
 using MediatorPattern.Application.Commands;
-using MediatorPattern.Application.Concrete;
 using MediatorPattern.Application.Handler;
-using MediatorPattern.Application.Interface;
+using MediatorPattern.Core.Concrete;
+using MediatorPattern.Core.Interface;
 using Microsoft.Extensions.DependencyInjection;
 
 namespace MediatorPattern.Application.Extensions;
