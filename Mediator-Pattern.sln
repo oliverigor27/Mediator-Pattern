@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MediatorPatern.Api", "src\A
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediatorPattern.Application", "src\Application\MediatorPattern.Application.csproj", "{505D8F38-0AC5-46FB-BE43-AA1B8D8ACF10}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediatorPattern.Core", "src\Core\MediatorPattern.Core.csproj", "{6C7BB3F7-BAB7-476C-9758-7DB28738EB19}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -43,6 +45,18 @@ Global
 		{505D8F38-0AC5-46FB-BE43-AA1B8D8ACF10}.Release|x64.Build.0 = Release|Any CPU
 		{505D8F38-0AC5-46FB-BE43-AA1B8D8ACF10}.Release|x86.ActiveCfg = Release|Any CPU
 		{505D8F38-0AC5-46FB-BE43-AA1B8D8ACF10}.Release|x86.Build.0 = Release|Any CPU
+		{6C7BB3F7-BAB7-476C-9758-7DB28738EB19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C7BB3F7-BAB7-476C-9758-7DB28738EB19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C7BB3F7-BAB7-476C-9758-7DB28738EB19}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{6C7BB3F7-BAB7-476C-9758-7DB28738EB19}.Debug|x64.Build.0 = Debug|Any CPU
+		{6C7BB3F7-BAB7-476C-9758-7DB28738EB19}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{6C7BB3F7-BAB7-476C-9758-7DB28738EB19}.Debug|x86.Build.0 = Debug|Any CPU
+		{6C7BB3F7-BAB7-476C-9758-7DB28738EB19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C7BB3F7-BAB7-476C-9758-7DB28738EB19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C7BB3F7-BAB7-476C-9758-7DB28738EB19}.Release|x64.ActiveCfg = Release|Any CPU
+		{6C7BB3F7-BAB7-476C-9758-7DB28738EB19}.Release|x64.Build.0 = Release|Any CPU
+		{6C7BB3F7-BAB7-476C-9758-7DB28738EB19}.Release|x86.ActiveCfg = Release|Any CPU
+		{6C7BB3F7-BAB7-476C-9758-7DB28738EB19}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -50,6 +64,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{C7E906E1-2600-44A7-916F-02EBDB0F397F} = {B03200AD-B308-4701-8E71-BE1E9F078691}
 		{505D8F38-0AC5-46FB-BE43-AA1B8D8ACF10} = {B03200AD-B308-4701-8E71-BE1E9F078691}
+		{6C7BB3F7-BAB7-476C-9758-7DB28738EB19} = {B03200AD-B308-4701-8E71-BE1E9F078691}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {69F65A9C-F0B8-4E78-8BC7-F0039002E684}
